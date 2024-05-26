@@ -1,0 +1,1638 @@
+====================================================================================================
+Arguments =
+Namespace(batch_size_train=64, batch_size_test=64, n_epochs=100, seed=1, pc_valid=0.05, lr=0.1, momentum=0.9, lr_min=0.001, lr_patience=5, lr_factor=3, savename='./logs/FIVE/', gpm_thro=0.95, mixup_alpha=1, mixup_weight=0.0001, weight_range=1e-05, ua_weight=1e-05, robust_train=True, robust_epoch=100)
+====================================================================================================
+****************************************************************************************************
+Task  0 (cifar10)
+****************************************************************************************************
+----------------------------------------
+Task ID :0 | Learning Rate : 0.1
+----------------------------------------
+Epoch   1 | Train: loss=1.361, acc= 51.3% | time=33290.0ms |
+ Valid: loss=1.427, acc= 48.6% |
+Epoch   2 | Train: loss=1.059, acc= 62.9% | time=33624.9ms |
+ Valid: loss=1.097, acc= 61.2% |
+Epoch   3 | Train: loss=0.832, acc= 70.3% | time=34921.8ms |
+ Valid: loss=0.916, acc= 67.6% |
+Epoch   4 | Train: loss=0.875, acc= 69.4% | time=33676.5ms |
+ Valid: loss=0.965, acc= 66.1% |
+Epoch   5 | Train: loss=0.619, acc= 77.9% | time=36369.1ms |
+ Valid: loss=0.800, acc= 71.7% |
+Epoch   6 | Train: loss=0.489, acc= 83.1% | time=37266.7ms |
+ Valid: loss=0.698, acc= 75.1% |
+Epoch   7 | Train: loss=0.468, acc= 83.2% | time=41829.4ms |
+ Valid: loss=0.719, acc= 74.6% |
+Epoch   8 | Train: loss=0.347, acc= 88.1% | time=43380.4ms |
+ Valid: loss=0.654, acc= 77.0% |
+Epoch   9 | Train: loss=0.305, acc= 89.6% | time=33488.0ms |
+ Valid: loss=0.682, acc= 77.0% |
+Epoch  10 | Train: loss=0.205, acc= 93.3% | time=34373.6ms |
+ Valid: loss=0.668, acc= 78.2% |
+Epoch  11 | Train: loss=0.453, acc= 86.6% | time=36746.4ms |
+ Valid: loss=0.956, acc= 72.5% |
+Epoch  12 | Train: loss=0.151, acc= 95.7% | time=33893.8ms |
+ Valid: loss=0.694, acc= 79.7% |
+Epoch  13 | Train: loss=0.442, acc= 87.6% | time=36122.6ms |
+ Valid: loss=1.111, acc= 71.5% |
+ lr=3.3e-02
+Epoch  14 | Train: loss=0.029, acc= 99.3% | time=42701.3ms |
+ Valid: loss=0.644, acc= 81.4% |
+Epoch  15 | Train: loss=0.010, acc=100.0% | time=35810.9ms |
+ Valid: loss=0.618, acc= 82.7% |
+Epoch  16 | Train: loss=0.011, acc= 99.9% | time=33445.2ms |
+ Valid: loss=0.677, acc= 81.2% |
+Epoch  17 | Train: loss=0.014, acc= 99.7% | time=36464.5ms |
+ Valid: loss=0.708, acc= 81.7% |
+Epoch  18 | Train: loss=0.004, acc=100.0% | time=34874.0ms |
+ Valid: loss=0.666, acc= 81.9% |
+Epoch  19 | Train: loss=0.007, acc= 99.9% | time=33575.6ms |
+ Valid: loss=0.701, acc= 82.2% |
+Epoch  20 | Train: loss=0.007, acc= 99.9% | time=34386.9ms |
+ Valid: loss=0.692, acc= 82.0% |
+ lr=1.1e-02
+Epoch  21 | Train: loss=0.002, acc=100.0% | time=36652.4ms |
+ Valid: loss=0.670, acc= 83.2% |
+Epoch  22 | Train: loss=0.002, acc=100.0% | time=36871.9ms |
+ Valid: loss=0.676, acc= 82.3% |
+Epoch  23 | Train: loss=0.002, acc=100.0% | time=35981.5ms |
+ Valid: loss=0.700, acc= 82.6% |
+Epoch  24 | Train: loss=0.001, acc=100.0% | time=34681.3ms |
+ Valid: loss=0.671, acc= 83.1% |
+Epoch  25 | Train: loss=0.001, acc=100.0% | time=33897.2ms |
+ Valid: loss=0.699, acc= 82.2% |
+ lr=3.7e-03
+Epoch  26 | Train: loss=0.001, acc=100.0% | time=43595.1ms |
+ Valid: loss=0.689, acc= 82.6% |
+Epoch  27 | Train: loss=0.001, acc=100.0% | time=33846.5ms |
+ Valid: loss=0.704, acc= 82.8% |
+Epoch  28 | Train: loss=0.001, acc=100.0% | time=36727.7ms |
+ Valid: loss=0.674, acc= 82.8% |
+Epoch  29 | Train: loss=0.001, acc=100.0% | time=36680.4ms |
+ Valid: loss=0.685, acc= 83.1% |
+Epoch  30 | Train: loss=0.001, acc=100.0% | time=34664.6ms |
+ Valid: loss=0.690, acc= 83.0% |
+ lr=1.2e-03
+Epoch  31 | Train: loss=0.001, acc=100.0% | time=34274.2ms |
+ Valid: loss=0.677, acc= 83.0% |
+Epoch  32 | Train: loss=0.001, acc=100.0% | time=39320.2ms |
+ Valid: loss=0.682, acc= 83.4% |
+Epoch  33 | Train: loss=0.001, acc=100.0% | time=33007.8ms |
+ Valid: loss=0.690, acc= 83.1% |
+Epoch  34 | Train: loss=0.001, acc=100.0% | time=37110.4ms |
+ Valid: loss=0.696, acc= 82.8% |
+Epoch  35 | Train: loss=0.001, acc=100.0% | time=41043.6ms |
+ Valid: loss=0.678, acc= 83.2% |
+ lr=4.1e-04
+----------------------------------------
+Test: loss=0.644 , acc= 82.6%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 3/27
+Layer 2 : 31/180
+Layer 3 : 62/180
+Layer 4 : 56/180
+Layer 5 : 87/180
+Layer 6 : 65/180
+Layer 7 : 182/360
+Layer 8 : 13/20
+Layer 9 : 187/360
+Layer 10 : 210/360
+Layer 11 : 181/360
+Layer 12 : 381/720
+Layer 13 : 28/40
+Layer 14 : 414/720
+Layer 15 : 406/720
+Layer 16 : 309/720
+Layer 17 : 562/1440
+Layer 18 : 54/80
+Layer 19 : 615/1440
+Layer 20 : 597/1440
+----------------------------------------
+Accuracies =
+ 82.6%   0.0%   0.0%   0.0%   0.0% 
+****************************************************************************************************
+Task  1 (mnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :1 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.045, acc= 98.8% | time=42231.5ms |
+ Valid: loss=0.059, acc= 98.3% |
+Epoch   2 | Train: loss=0.029, acc= 99.3% | time=44382.7ms |
+ Valid: loss=0.051, acc= 98.3% |
+Epoch   3 | Train: loss=0.018, acc= 99.6% | time=41152.3ms |
+ Valid: loss=0.042, acc= 98.7% |
+Epoch   4 | Train: loss=0.014, acc= 99.7% | time=44691.2ms |
+ Valid: loss=0.038, acc= 98.9% |
+Epoch   5 | Train: loss=0.010, acc= 99.8% | time=45559.2ms |
+ Valid: loss=0.036, acc= 99.1% |
+Epoch   6 | Train: loss=0.008, acc= 99.9% | time=44210.7ms |
+ Valid: loss=0.033, acc= 99.3% |
+Epoch   7 | Train: loss=0.006, acc= 99.9% | time=42939.1ms |
+ Valid: loss=0.033, acc= 99.2% |
+Epoch   8 | Train: loss=0.005, acc= 99.9% | time=45782.3ms |
+ Valid: loss=0.032, acc= 99.2% |
+Epoch   9 | Train: loss=0.004, acc= 99.9% | time=45856.0ms |
+ Valid: loss=0.031, acc= 99.1% |
+Epoch  10 | Train: loss=0.003, acc= 99.9% | time=47210.9ms |
+ Valid: loss=0.034, acc= 99.1% |
+Epoch  11 | Train: loss=0.002, acc=100.0% | time=48079.1ms |
+ Valid: loss=0.033, acc= 99.0% |
+Epoch  12 | Train: loss=0.002, acc=100.0% | time=55664.7ms |
+ Valid: loss=0.034, acc= 99.0% |
+Epoch  13 | Train: loss=0.002, acc=100.0% | time=55035.3ms |
+ Valid: loss=0.033, acc= 99.2% |
+Epoch  14 | Train: loss=0.002, acc=100.0% | time=51802.4ms |
+ Valid: loss=0.034, acc= 99.1% |
+ lr=3.3e-02
+Epoch  15 | Train: loss=0.001, acc=100.0% | time=55745.1ms |
+ Valid: loss=0.030, acc= 99.1% |
+Epoch  16 | Train: loss=0.001, acc=100.0% | time=45584.4ms |
+ Valid: loss=0.031, acc= 99.2% |
+Epoch  17 | Train: loss=0.001, acc=100.0% | time=47247.2ms |
+ Valid: loss=0.034, acc= 99.1% |
+Epoch  18 | Train: loss=0.001, acc=100.0% | time=44456.5ms |
+ Valid: loss=0.032, acc= 99.2% |
+Epoch  19 | Train: loss=0.001, acc=100.0% | time=44891.4ms |
+ Valid: loss=0.033, acc= 99.1% |
+Epoch  20 | Train: loss=0.001, acc=100.0% | time=43931.8ms |
+ Valid: loss=0.032, acc= 99.2% |
+ lr=1.1e-02
+Epoch  21 | Train: loss=0.001, acc=100.0% | time=41325.2ms |
+ Valid: loss=0.033, acc= 99.2% |
+Epoch  22 | Train: loss=0.001, acc=100.0% | time=48606.6ms |
+ Valid: loss=0.030, acc= 99.2% |
+Epoch  23 | Train: loss=0.001, acc=100.0% | time=42152.4ms |
+ Valid: loss=0.031, acc= 99.1% |
+Epoch  24 | Train: loss=0.001, acc=100.0% | time=44306.1ms |
+ Valid: loss=0.032, acc= 99.1% |
+Epoch  25 | Train: loss=0.001, acc=100.0% | time=46581.5ms |
+ Valid: loss=0.033, acc= 99.2% |
+Epoch  26 | Train: loss=0.001, acc=100.0% | time=41905.5ms |
+ Valid: loss=0.031, acc= 99.2% |
+Epoch  27 | Train: loss=0.001, acc=100.0% | time=36829.9ms |
+ Valid: loss=0.032, acc= 99.3% |
+ lr=3.7e-03
+Epoch  28 | Train: loss=0.001, acc=100.0% | time=37875.2ms |
+ Valid: loss=0.033, acc= 99.1% |
+Epoch  29 | Train: loss=0.001, acc=100.0% | time=49094.6ms |
+ Valid: loss=0.034, acc= 99.1% |
+Epoch  30 | Train: loss=0.001, acc=100.0% | time=48648.1ms |
+ Valid: loss=0.033, acc= 99.1% |
+Epoch  31 | Train: loss=0.001, acc=100.0% | time=52573.1ms |
+ Valid: loss=0.030, acc= 99.2% |
+Epoch  32 | Train: loss=0.001, acc=100.0% | time=40534.9ms |
+ Valid: loss=0.033, acc= 99.1% |
+ lr=1.2e-03
+Epoch  33 | Train: loss=0.001, acc=100.0% | time=48571.6ms |
+ Valid: loss=0.033, acc= 99.2% |
+Epoch  34 | Train: loss=0.001, acc=100.0% | time=41538.2ms |
+ Valid: loss=0.031, acc= 99.2% |
+Epoch  35 | Train: loss=0.001, acc=100.0% | time=47434.7ms |
+ Valid: loss=0.032, acc= 99.2% |
+Epoch  36 | Train: loss=0.001, acc=100.0% | time=54149.6ms |
+ Valid: loss=0.031, acc= 99.2% |
+Epoch  37 | Train: loss=0.001, acc=100.0% | time=46948.0ms |
+ Valid: loss=0.032, acc= 99.2% |
+ lr=4.1e-04
+Test: loss=0.016 , acc= 99.5%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 10
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/27
+Layer 2 : 41/180
+Layer 3 : 74/180
+Layer 4 : 65/180
+Layer 5 : 100/180
+Layer 6 : 75/180
+Layer 7 : 201/360
+Layer 8 : 15/20
+Layer 9 : 208/360
+Layer 10 : 210/360
+Layer 11 : 188/360
+Layer 12 : 415/720
+Layer 13 : 29/40
+Layer 14 : 437/720
+Layer 15 : 435/720
+Layer 16 : 367/720
+Layer 17 : 737/1440
+Layer 18 : 58/80
+Layer 19 : 817/1440
+Layer 20 : 801/1440
+----------------------------------------
+Accuracies =
+ 82.6%   0.0%   0.0%   0.0%   0.0% 
+ 82.0%  99.5%   0.0%   0.0%   0.0% 
+****************************************************************************************************
+Task  2 (svhn)
+****************************************************************************************************
+----------------------------------------
+Task ID :2 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.423, acc= 87.0% | time=53394.6ms |
+ Valid: loss=0.486, acc= 85.3% |
+Epoch   2 | Train: loss=0.311, acc= 91.1% | time=56261.3ms |
+ Valid: loss=0.393, acc= 88.8% |
+Epoch   3 | Train: loss=0.248, acc= 92.9% | time=62052.1ms |
+ Valid: loss=0.355, acc= 89.5% |
+Epoch   4 | Train: loss=0.200, acc= 94.6% | time=57403.1ms |
+ Valid: loss=0.331, acc= 90.1% |
+Epoch   5 | Train: loss=0.154, acc= 96.5% | time=54225.0ms |
+ Valid: loss=0.311, acc= 91.1% |
+Epoch   6 | Train: loss=0.116, acc= 97.6% | time=56904.7ms |
+ Valid: loss=0.304, acc= 91.5% |
+Epoch   7 | Train: loss=0.094, acc= 98.3% | time=56115.3ms |
+ Valid: loss=0.303, acc= 91.5% |
+Epoch   8 | Train: loss=0.069, acc= 98.9% | time=56340.5ms |
+ Valid: loss=0.298, acc= 91.7% |
+Epoch   9 | Train: loss=0.053, acc= 99.2% | time=55475.4ms |
+ Valid: loss=0.306, acc= 91.6% |
+Epoch  10 | Train: loss=0.036, acc= 99.6% | time=51787.6ms |
+ Valid: loss=0.306, acc= 92.0% |
+Epoch  11 | Train: loss=0.028, acc= 99.7% | time=54583.2ms |
+ Valid: loss=0.325, acc= 91.0% |
+Epoch  12 | Train: loss=0.019, acc= 99.8% | time=57419.4ms |
+ Valid: loss=0.319, acc= 91.6% |
+Epoch  13 | Train: loss=0.013, acc= 99.9% | time=51529.7ms |
+ Valid: loss=0.327, acc= 91.7% |
+ lr=3.3e-02
+Epoch  14 | Train: loss=0.011, acc= 99.9% | time=55079.7ms |
+ Valid: loss=0.327, acc= 91.7% |
+Epoch  15 | Train: loss=0.009, acc= 99.9% | time=56230.4ms |
+ Valid: loss=0.328, acc= 91.6% |
+Epoch  16 | Train: loss=0.008, acc= 99.9% | time=56626.8ms |
+ Valid: loss=0.331, acc= 91.9% |
+Epoch  17 | Train: loss=0.007, acc=100.0% | time=54539.1ms |
+ Valid: loss=0.330, acc= 91.9% |
+Epoch  18 | Train: loss=0.006, acc=100.0% | time=52068.4ms |
+ Valid: loss=0.332, acc= 91.8% |
+ lr=1.1e-02
+Epoch  19 | Train: loss=0.006, acc=100.0% | time=56626.5ms |
+ Valid: loss=0.336, acc= 91.8% |
+Epoch  20 | Train: loss=0.005, acc=100.0% | time=56844.9ms |
+ Valid: loss=0.336, acc= 92.0% |
+Epoch  21 | Train: loss=0.005, acc=100.0% | time=56350.5ms |
+ Valid: loss=0.339, acc= 91.8% |
+Epoch  22 | Train: loss=0.005, acc=100.0% | time=56339.7ms |
+ Valid: loss=0.340, acc= 91.9% |
+Epoch  23 | Train: loss=0.005, acc=100.0% | time=58215.6ms |
+ Valid: loss=0.343, acc= 91.7% |
+ lr=3.7e-03
+Epoch  24 | Train: loss=0.005, acc=100.0% | time=53069.0ms |
+ Valid: loss=0.344, acc= 91.7% |
+Epoch  25 | Train: loss=0.005, acc=100.0% | time=56054.8ms |
+ Valid: loss=0.341, acc= 91.6% |
+Epoch  26 | Train: loss=0.005, acc=100.0% | time=57167.6ms |
+ Valid: loss=0.339, acc= 92.2% |
+Epoch  27 | Train: loss=0.004, acc=100.0% | time=54407.1ms |
+ Valid: loss=0.344, acc= 91.6% |
+Epoch  28 | Train: loss=0.004, acc=100.0% | time=57254.4ms |
+ Valid: loss=0.344, acc= 91.8% |
+ lr=1.2e-03
+Epoch  29 | Train: loss=0.004, acc=100.0% | time=52361.9ms |
+ Valid: loss=0.342, acc= 91.8% |
+Epoch  30 | Train: loss=0.004, acc=100.0% | time=53972.0ms |
+ Valid: loss=0.345, acc= 91.8% |
+Epoch  31 | Train: loss=0.004, acc=100.0% | time=54553.5ms |
+ Valid: loss=0.344, acc= 91.8% |
+Epoch  32 | Train: loss=0.004, acc=100.0% | time=54473.2ms |
+ Valid: loss=0.348, acc= 91.9% |
+Epoch  33 | Train: loss=0.004, acc=100.0% | time=48904.7ms |
+ Valid: loss=0.348, acc= 91.6% |
+ lr=4.1e-04
+Test: loss=0.298 , acc= 91.2%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 2
+Skip Updating GPM for layer: 3
+Skip Updating GPM for layer: 4
+Skip Updating GPM for layer: 5
+Skip Updating GPM for layer: 6
+Skip Updating GPM for layer: 8
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/27
+Layer 2 : 41/180
+Layer 3 : 74/180
+Layer 4 : 65/180
+Layer 5 : 100/180
+Layer 6 : 75/180
+Layer 7 : 211/360
+Layer 8 : 15/20
+Layer 9 : 216/360
+Layer 10 : 211/360
+Layer 11 : 195/360
+Layer 12 : 459/720
+Layer 13 : 30/40
+Layer 14 : 472/720
+Layer 15 : 476/720
+Layer 16 : 434/720
+Layer 17 : 935/1440
+Layer 18 : 60/80
+Layer 19 : 1011/1440
+Layer 20 : 1009/1440
+----------------------------------------
+Accuracies =
+ 82.6%   0.0%   0.0%   0.0%   0.0% 
+ 82.0%  99.5%   0.0%   0.0%   0.0% 
+ 75.3%  99.1%  91.2%   0.0%   0.0% 
+****************************************************************************************************
+Task  3 (fashion-mnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :3 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.011, acc= 99.9% | time=40552.8ms |
+ Valid: loss=0.037, acc= 99.0% |
+Epoch   2 | Train: loss=0.006, acc= 99.9% | time=45999.0ms |
+ Valid: loss=0.030, acc= 99.2% |
+Epoch   3 | Train: loss=0.004, acc=100.0% | time=46875.2ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch   4 | Train: loss=0.003, acc=100.0% | time=47671.4ms |
+ Valid: loss=0.026, acc= 99.3% |
+Epoch   5 | Train: loss=0.002, acc=100.0% | time=42399.2ms |
+ Valid: loss=0.027, acc= 99.2% |
+Epoch   6 | Train: loss=0.002, acc=100.0% | time=44782.3ms |
+ Valid: loss=0.027, acc= 99.2% |
+Epoch   7 | Train: loss=0.001, acc=100.0% | time=44601.9ms |
+ Valid: loss=0.029, acc= 99.3% |
+Epoch   8 | Train: loss=0.001, acc=100.0% | time=46874.6ms |
+ Valid: loss=0.027, acc= 99.2% |
+Epoch   9 | Train: loss=0.001, acc=100.0% | time=43428.7ms |
+ Valid: loss=0.025, acc= 99.3% |
+Epoch  10 | Train: loss=0.001, acc=100.0% | time=44843.4ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  11 | Train: loss=0.001, acc=100.0% | time=46787.5ms |
+ Valid: loss=0.029, acc= 99.3% |
+Epoch  12 | Train: loss=0.001, acc=100.0% | time=44917.1ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  13 | Train: loss=0.001, acc=100.0% | time=44441.7ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  14 | Train: loss=0.000, acc=100.0% | time=46312.4ms |
+ Valid: loss=0.028, acc= 99.2% |
+ lr=3.3e-02
+Epoch  15 | Train: loss=0.000, acc=100.0% | time=40493.2ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  16 | Train: loss=0.000, acc=100.0% | time=41864.4ms |
+ Valid: loss=0.028, acc= 99.4% |
+Epoch  17 | Train: loss=0.000, acc=100.0% | time=44768.4ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  18 | Train: loss=0.000, acc=100.0% | time=44326.4ms |
+ Valid: loss=0.029, acc= 99.3% |
+Epoch  19 | Train: loss=0.000, acc=100.0% | time=50712.7ms |
+ Valid: loss=0.028, acc= 99.3% |
+ lr=1.1e-02
+Epoch  20 | Train: loss=0.000, acc=100.0% | time=49267.0ms |
+ Valid: loss=0.029, acc= 99.3% |
+Epoch  21 | Train: loss=0.000, acc=100.0% | time=47773.1ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  22 | Train: loss=0.000, acc=100.0% | time=50925.8ms |
+ Valid: loss=0.030, acc= 99.3% |
+Epoch  23 | Train: loss=0.000, acc=100.0% | time=49033.7ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  24 | Train: loss=0.000, acc=100.0% | time=48801.9ms |
+ Valid: loss=0.029, acc= 99.3% |
+ lr=3.7e-03
+Epoch  25 | Train: loss=0.000, acc=100.0% | time=49976.5ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  26 | Train: loss=0.000, acc=100.0% | time=52740.9ms |
+ Valid: loss=0.029, acc= 99.3% |
+Epoch  27 | Train: loss=0.000, acc=100.0% | time=49811.2ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  28 | Train: loss=0.000, acc=100.0% | time=50440.4ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  29 | Train: loss=0.000, acc=100.0% | time=50399.1ms |
+ Valid: loss=0.029, acc= 99.2% |
+ lr=1.2e-03
+Epoch  30 | Train: loss=0.000, acc=100.0% | time=50245.3ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  31 | Train: loss=0.000, acc=100.0% | time=50394.8ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  32 | Train: loss=0.000, acc=100.0% | time=50324.7ms |
+ Valid: loss=0.028, acc= 99.3% |
+Epoch  33 | Train: loss=0.000, acc=100.0% | time=50231.1ms |
+ Valid: loss=0.027, acc= 99.3% |
+Epoch  34 | Train: loss=0.000, acc=100.0% | time=50220.7ms |
+ Valid: loss=0.028, acc= 99.3% |
+ lr=4.1e-04
+Test: loss=0.016 , acc= 99.5%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 5
+Skip Updating GPM for layer: 7
+Skip Updating GPM for layer: 8
+Skip Updating GPM for layer: 9
+Skip Updating GPM for layer: 10
+Skip Updating GPM for layer: 11
+Skip Updating GPM for layer: 12
+Skip Updating GPM for layer: 13
+Skip Updating GPM for layer: 14
+Skip Updating GPM for layer: 15
+Skip Updating GPM for layer: 16
+Skip Updating GPM for layer: 18
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/27
+Layer 2 : 43/180
+Layer 3 : 75/180
+Layer 4 : 66/180
+Layer 5 : 100/180
+Layer 6 : 76/180
+Layer 7 : 211/360
+Layer 8 : 15/20
+Layer 9 : 216/360
+Layer 10 : 211/360
+Layer 11 : 195/360
+Layer 12 : 459/720
+Layer 13 : 30/40
+Layer 14 : 472/720
+Layer 15 : 476/720
+Layer 16 : 434/720
+Layer 17 : 948/1440
+Layer 18 : 60/80
+Layer 19 : 1021/1440
+Layer 20 : 1021/1440
+----------------------------------------
+Accuracies =
+ 82.6%   0.0%   0.0%   0.0%   0.0% 
+ 82.0%  99.5%   0.0%   0.0%   0.0% 
+ 75.3%  99.1%  91.2%   0.0%   0.0% 
+ 76.5%  99.4%  90.7%  99.5%   0.0% 
+****************************************************************************************************
+Task  4 (notmnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :4 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.397, acc= 87.1% | time=13315.5ms |
+ Valid: loss=0.442, acc= 85.5% |
+Epoch   2 | Train: loss=0.217, acc= 94.1% | time=14323.1ms |
+ Valid: loss=0.275, acc= 91.1% |
+Epoch   3 | Train: loss=0.162, acc= 95.6% | time=14326.4ms |
+ Valid: loss=0.233, acc= 92.9% |
+Epoch   4 | Train: loss=0.164, acc= 95.3% | time=13751.5ms |
+ Valid: loss=0.243, acc= 92.9% |
+Epoch   5 | Train: loss=0.104, acc= 97.5% | time=14405.1ms |
+ Valid: loss=0.200, acc= 93.8% |
+Epoch   6 | Train: loss=0.098, acc= 97.5% | time=14422.1ms |
+ Valid: loss=0.201, acc= 94.1% |
+Epoch   7 | Train: loss=0.077, acc= 98.4% | time=14302.9ms |
+ Valid: loss=0.184, acc= 94.4% |
+Epoch   8 | Train: loss=0.061, acc= 98.9% | time=14297.5ms |
+ Valid: loss=0.183, acc= 94.5% |
+Epoch   9 | Train: loss=0.051, acc= 99.2% | time=14303.7ms |
+ Valid: loss=0.174, acc= 94.4% |
+Epoch  10 | Train: loss=0.046, acc= 99.3% | time=14344.5ms |
+ Valid: loss=0.185, acc= 94.7% |
+Epoch  11 | Train: loss=0.033, acc= 99.6% | time=14383.2ms |
+ Valid: loss=0.176, acc= 94.5% |
+Epoch  12 | Train: loss=0.044, acc= 99.0% | time=14369.5ms |
+ Valid: loss=0.204, acc= 94.2% |
+Epoch  13 | Train: loss=0.024, acc= 99.7% | time=14404.1ms |
+ Valid: loss=0.172, acc= 95.0% |
+Epoch  14 | Train: loss=0.020, acc= 99.8% | time=13935.8ms |
+ Valid: loss=0.180, acc= 94.4% |
+Epoch  15 | Train: loss=0.022, acc= 99.6% | time=12503.3ms |
+ Valid: loss=0.197, acc= 94.4% |
+Epoch  16 | Train: loss=0.016, acc= 99.8% | time=13385.2ms |
+ Valid: loss=0.179, acc= 94.3% |
+Epoch  17 | Train: loss=0.012, acc= 99.9% | time=13160.9ms |
+ Valid: loss=0.176, acc= 94.4% |
+Epoch  18 | Train: loss=0.014, acc= 99.9% | time=13168.2ms |
+ Valid: loss=0.187, acc= 95.0% |
+ lr=3.3e-02
+Epoch  19 | Train: loss=0.010, acc= 99.9% | time=13084.0ms |
+ Valid: loss=0.175, acc= 94.7% |
+Epoch  20 | Train: loss=0.009, acc= 99.9% | time=13011.4ms |
+ Valid: loss=0.176, acc= 94.8% |
+Epoch  21 | Train: loss=0.009, acc= 99.9% | time=12525.2ms |
+ Valid: loss=0.180, acc= 94.8% |
+Epoch  22 | Train: loss=0.008, acc= 99.9% | time=12948.3ms |
+ Valid: loss=0.175, acc= 94.8% |
+Epoch  23 | Train: loss=0.008, acc= 99.9% | time=13228.3ms |
+ Valid: loss=0.173, acc= 94.8% |
+ lr=1.1e-02
+Epoch  24 | Train: loss=0.007, acc= 99.9% | time=11944.0ms |
+ Valid: loss=0.184, acc= 94.7% |
+Epoch  25 | Train: loss=0.007, acc= 99.9% | time=13338.3ms |
+ Valid: loss=0.178, acc= 95.0% |
+Epoch  26 | Train: loss=0.007, acc= 99.9% | time=13089.6ms |
+ Valid: loss=0.174, acc= 94.5% |
+Epoch  27 | Train: loss=0.007, acc= 99.9% | time=13190.4ms |
+ Valid: loss=0.178, acc= 94.7% |
+Epoch  28 | Train: loss=0.007, acc= 99.9% | time=13193.3ms |
+ Valid: loss=0.177, acc= 95.0% |
+ lr=3.7e-03
+Epoch  29 | Train: loss=0.007, acc= 99.9% | time=13175.9ms |
+ Valid: loss=0.182, acc= 94.5% |
+Epoch  30 | Train: loss=0.007, acc= 99.9% | time=13093.0ms |
+ Valid: loss=0.176, acc= 94.7% |
+Epoch  31 | Train: loss=0.007, acc= 99.9% | time=13091.8ms |
+ Valid: loss=0.175, acc= 95.1% |
+Epoch  32 | Train: loss=0.007, acc= 99.9% | time=13149.3ms |
+ Valid: loss=0.179, acc= 94.7% |
+Epoch  33 | Train: loss=0.007, acc= 99.9% | time=12950.1ms |
+ Valid: loss=0.177, acc= 94.7% |
+ lr=1.2e-03
+Epoch  34 | Train: loss=0.007, acc= 99.9% | time=13061.1ms |
+ Valid: loss=0.181, acc= 94.5% |
+Epoch  35 | Train: loss=0.007, acc= 99.9% | time=13043.1ms |
+ Valid: loss=0.174, acc= 95.0% |
+Epoch  36 | Train: loss=0.007, acc= 99.9% | time=13076.3ms |
+ Valid: loss=0.174, acc= 94.7% |
+Epoch  37 | Train: loss=0.007, acc= 99.9% | time=13220.9ms |
+ Valid: loss=0.172, acc= 94.9% |
+Epoch  38 | Train: loss=0.007, acc= 99.9% | time=13284.7ms |
+ Valid: loss=0.179, acc= 94.8% |
+ lr=4.1e-04
+Test: loss=0.187 , acc= 94.6%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 2
+Skip Updating GPM for layer: 4
+Skip Updating GPM for layer: 5
+Skip Updating GPM for layer: 6
+Skip Updating GPM for layer: 7
+Skip Updating GPM for layer: 8
+Skip Updating GPM for layer: 9
+Skip Updating GPM for layer: 10
+Skip Updating GPM for layer: 11
+Skip Updating GPM for layer: 12
+Skip Updating GPM for layer: 13
+Skip Updating GPM for layer: 14
+Skip Updating GPM for layer: 15
+Skip Updating GPM for layer: 18
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/27
+Layer 2 : 43/180
+Layer 3 : 76/180
+Layer 4 : 66/180
+Layer 5 : 100/180
+Layer 6 : 76/180
+Layer 7 : 211/360
+Layer 8 : 15/20
+Layer 9 : 216/360
+Layer 10 : 211/360
+Layer 11 : 195/360
+Layer 12 : 459/720
+Layer 13 : 30/40
+Layer 14 : 472/720
+Layer 15 : 476/720
+Layer 16 : 449/720
+Layer 17 : 1015/1440
+Layer 18 : 60/80
+Layer 19 : 1087/1440
+Layer 20 : 1095/1440
+----------------------------------------
+Accuracies =
+ 82.6%   0.0%   0.0%   0.0%   0.0% 
+ 82.0%  99.5%   0.0%   0.0%   0.0% 
+ 75.3%  99.1%  91.2%   0.0%   0.0% 
+ 76.5%  99.4%  90.7%  99.5%   0.0% 
+ 76.1%  99.4%  90.4%  99.3%  94.3% 
+--------------------------------------------------
+Task Order : [0 1 2 3 4]
+Final Avg Accuracy: 91.91%
+Backward transfer: -1.87%
+[Elapsed time = 7331302.8 ms]
+--------------------------------------------------
+====================================================================================================
+Arguments =
+Namespace(batch_size_train=64, batch_size_test=64, n_epochs=100, seed=2, pc_valid=0.05, lr=0.1, momentum=0.9, lr_min=0.001, lr_patience=5, lr_factor=3, savename='./logs/FIVE/', gpm_thro=0.95, mixup_alpha=1, mixup_weight=0.0001, weight_range=1e-05, ua_weight=1e-05, robust_train=True, robust_epoch=100)
+====================================================================================================
+****************************************************************************************************
+Task  0 (cifar10)
+****************************************************************************************************
+----------------------------------------
+Task ID :0 | Learning Rate : 0.1
+----------------------------------------
+Epoch   1 | Train: loss=1.449, acc= 48.5% | time=35179.8ms |
+ Valid: loss=1.507, acc= 46.0% |
+Epoch   2 | Train: loss=1.165, acc= 57.3% | time=32339.2ms |
+ Valid: loss=1.240, acc= 56.5% |
+Epoch   3 | Train: loss=0.867, acc= 68.0% | time=37564.2ms |
+ Valid: loss=0.955, acc= 66.3% |
+Epoch   4 | Train: loss=0.678, acc= 76.1% | time=38459.9ms |
+ Valid: loss=0.814, acc= 70.8% |
+Epoch   5 | Train: loss=0.576, acc= 80.1% | time=38255.4ms |
+ Valid: loss=0.738, acc= 73.8% |
+Epoch   6 | Train: loss=0.617, acc= 78.8% | time=38577.1ms |
+ Valid: loss=0.845, acc= 71.5% |
+Epoch   7 | Train: loss=0.487, acc= 83.0% | time=36560.8ms |
+ Valid: loss=0.747, acc= 73.8% |
+Epoch   8 | Train: loss=0.358, acc= 88.3% | time=38596.7ms |
+ Valid: loss=0.658, acc= 77.3% |
+Epoch   9 | Train: loss=0.334, acc= 87.7% | time=36956.6ms |
+ Valid: loss=0.757, acc= 75.0% |
+Epoch  10 | Train: loss=0.288, acc= 90.2% | time=38356.2ms |
+ Valid: loss=0.727, acc= 76.0% |
+Epoch  11 | Train: loss=0.148, acc= 95.9% | time=38386.5ms |
+ Valid: loss=0.682, acc= 79.2% |
+Epoch  12 | Train: loss=0.159, acc= 95.1% | time=38637.7ms |
+ Valid: loss=0.728, acc= 78.5% |
+Epoch  13 | Train: loss=0.176, acc= 94.6% | time=38680.5ms |
+ Valid: loss=0.734, acc= 78.8% |
+ lr=3.3e-02
+Epoch  14 | Train: loss=0.031, acc= 99.5% | time=38177.4ms |
+ Valid: loss=0.615, acc= 81.9% |
+Epoch  15 | Train: loss=0.011, acc=100.0% | time=38525.2ms |
+ Valid: loss=0.628, acc= 82.6% |
+Epoch  16 | Train: loss=0.013, acc= 99.9% | time=38364.5ms |
+ Valid: loss=0.657, acc= 82.9% |
+Epoch  17 | Train: loss=0.007, acc=100.0% | time=38523.6ms |
+ Valid: loss=0.653, acc= 82.4% |
+Epoch  18 | Train: loss=0.014, acc= 99.6% | time=38467.2ms |
+ Valid: loss=0.716, acc= 82.4% |
+Epoch  19 | Train: loss=0.006, acc=100.0% | time=36161.0ms |
+ Valid: loss=0.670, acc= 82.7% |
+ lr=1.1e-02
+Epoch  20 | Train: loss=0.003, acc=100.0% | time=38248.8ms |
+ Valid: loss=0.665, acc= 83.1% |
+Epoch  21 | Train: loss=0.002, acc=100.0% | time=38533.3ms |
+ Valid: loss=0.672, acc= 83.2% |
+Epoch  22 | Train: loss=0.002, acc=100.0% | time=38464.8ms |
+ Valid: loss=0.686, acc= 82.5% |
+Epoch  23 | Train: loss=0.002, acc=100.0% | time=37346.2ms |
+ Valid: loss=0.688, acc= 83.0% |
+Epoch  24 | Train: loss=0.002, acc=100.0% | time=36230.0ms |
+ Valid: loss=0.696, acc= 83.0% |
+ lr=3.7e-03
+Epoch  25 | Train: loss=0.001, acc=100.0% | time=36610.8ms |
+ Valid: loss=0.673, acc= 83.6% |
+Epoch  26 | Train: loss=0.001, acc=100.0% | time=36777.4ms |
+ Valid: loss=0.688, acc= 83.6% |
+Epoch  27 | Train: loss=0.001, acc=100.0% | time=38484.4ms |
+ Valid: loss=0.679, acc= 83.6% |
+Epoch  28 | Train: loss=0.001, acc=100.0% | time=38440.9ms |
+ Valid: loss=0.684, acc= 83.4% |
+Epoch  29 | Train: loss=0.001, acc=100.0% | time=37145.7ms |
+ Valid: loss=0.688, acc= 82.8% |
+ lr=1.2e-03
+Epoch  30 | Train: loss=0.001, acc=100.0% | time=34744.0ms |
+ Valid: loss=0.687, acc= 83.6% |
+Epoch  31 | Train: loss=0.001, acc=100.0% | time=35581.0ms |
+ Valid: loss=0.683, acc= 83.0% |
+Epoch  32 | Train: loss=0.001, acc=100.0% | time=38399.5ms |
+ Valid: loss=0.686, acc= 83.1% |
+Epoch  33 | Train: loss=0.001, acc=100.0% | time=38411.5ms |
+ Valid: loss=0.697, acc= 83.4% |
+Epoch  34 | Train: loss=0.001, acc=100.0% | time=38596.2ms |
+ Valid: loss=0.688, acc= 83.6% |
+ lr=4.1e-04
+----------------------------------------
+Test: loss=0.666 , acc= 81.6%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 5/27
+Layer 2 : 36/180
+Layer 3 : 67/180
+Layer 4 : 63/180
+Layer 5 : 93/180
+Layer 6 : 67/180
+Layer 7 : 174/360
+Layer 8 : 13/20
+Layer 9 : 181/360
+Layer 10 : 201/360
+Layer 11 : 182/360
+Layer 12 : 378/720
+Layer 13 : 28/40
+Layer 14 : 415/720
+Layer 15 : 418/720
+Layer 16 : 306/720
+Layer 17 : 554/1440
+Layer 18 : 54/80
+Layer 19 : 621/1440
+Layer 20 : 595/1440
+----------------------------------------
+Accuracies =
+ 81.3%   0.0%   0.0%   0.0%   0.0% 
+****************************************************************************************************
+Task  1 (mnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :1 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.048, acc= 98.7% | time=43099.2ms |
+ Valid: loss=0.055, acc= 98.5% |
+Epoch   2 | Train: loss=0.028, acc= 99.4% | time=43993.2ms |
+ Valid: loss=0.042, acc= 98.9% |
+Epoch   3 | Train: loss=0.019, acc= 99.6% | time=42500.4ms |
+ Valid: loss=0.033, acc= 99.0% |
+Epoch   4 | Train: loss=0.014, acc= 99.7% | time=43013.7ms |
+ Valid: loss=0.030, acc= 99.0% |
+Epoch   5 | Train: loss=0.011, acc= 99.8% | time=43676.7ms |
+ Valid: loss=0.030, acc= 99.3% |
+Epoch   6 | Train: loss=0.008, acc= 99.9% | time=43092.8ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch   7 | Train: loss=0.006, acc= 99.9% | time=43873.8ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch   8 | Train: loss=0.005, acc= 99.9% | time=46344.9ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch   9 | Train: loss=0.004, acc= 99.9% | time=45157.7ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch  10 | Train: loss=0.003, acc= 99.9% | time=46060.0ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch  11 | Train: loss=0.003, acc=100.0% | time=44467.0ms |
+ Valid: loss=0.024, acc= 99.2% |
+Epoch  12 | Train: loss=0.002, acc=100.0% | time=45963.6ms |
+ Valid: loss=0.023, acc= 99.4% |
+Epoch  13 | Train: loss=0.002, acc=100.0% | time=47008.6ms |
+ Valid: loss=0.023, acc= 99.2% |
+Epoch  14 | Train: loss=0.001, acc=100.0% | time=44122.3ms |
+ Valid: loss=0.024, acc= 99.2% |
+Epoch  15 | Train: loss=0.001, acc=100.0% | time=46670.3ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  16 | Train: loss=0.001, acc=100.0% | time=44463.0ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  17 | Train: loss=0.001, acc=100.0% | time=46511.8ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  18 | Train: loss=0.001, acc=100.0% | time=46968.0ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  19 | Train: loss=0.001, acc=100.0% | time=46955.9ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  20 | Train: loss=0.000, acc=100.0% | time=46494.4ms |
+ Valid: loss=0.024, acc= 99.4% |
+Epoch  21 | Train: loss=0.000, acc=100.0% | time=46372.5ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  22 | Train: loss=0.000, acc=100.0% | time=46430.7ms |
+ Valid: loss=0.022, acc= 99.2% |
+ lr=3.3e-02
+Epoch  23 | Train: loss=0.000, acc=100.0% | time=46446.5ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  24 | Train: loss=0.000, acc=100.0% | time=46913.0ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  25 | Train: loss=0.000, acc=100.0% | time=46810.1ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  26 | Train: loss=0.000, acc=100.0% | time=46840.6ms |
+ Valid: loss=0.023, acc= 99.2% |
+Epoch  27 | Train: loss=0.000, acc=100.0% | time=46861.0ms |
+ Valid: loss=0.025, acc= 99.3% |
+ lr=1.1e-02
+Epoch  28 | Train: loss=0.000, acc=100.0% | time=45531.4ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  29 | Train: loss=0.000, acc=100.0% | time=42892.1ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  30 | Train: loss=0.000, acc=100.0% | time=44419.2ms |
+ Valid: loss=0.023, acc= 99.4% |
+Epoch  31 | Train: loss=0.000, acc=100.0% | time=46137.9ms |
+ Valid: loss=0.022, acc= 99.5% |
+Epoch  32 | Train: loss=0.000, acc=100.0% | time=45035.0ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  33 | Train: loss=0.000, acc=100.0% | time=46647.1ms |
+ Valid: loss=0.023, acc= 99.4% |
+ lr=3.7e-03
+Epoch  34 | Train: loss=0.000, acc=100.0% | time=41987.0ms |
+ Valid: loss=0.023, acc= 99.2% |
+Epoch  35 | Train: loss=0.000, acc=100.0% | time=45855.9ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  36 | Train: loss=0.000, acc=100.0% | time=43889.0ms |
+ Valid: loss=0.023, acc= 99.2% |
+Epoch  37 | Train: loss=0.000, acc=100.0% | time=46213.5ms |
+ Valid: loss=0.025, acc= 99.3% |
+Epoch  38 | Train: loss=0.000, acc=100.0% | time=46865.9ms |
+ Valid: loss=0.024, acc= 99.3% |
+ lr=1.2e-03
+Epoch  39 | Train: loss=0.000, acc=100.0% | time=45413.0ms |
+ Valid: loss=0.024, acc= 99.2% |
+Epoch  40 | Train: loss=0.000, acc=100.0% | time=46837.5ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  41 | Train: loss=0.000, acc=100.0% | time=46412.8ms |
+ Valid: loss=0.024, acc= 99.3% |
+Epoch  42 | Train: loss=0.000, acc=100.0% | time=46245.8ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  43 | Train: loss=0.000, acc=100.0% | time=47741.1ms |
+ Valid: loss=0.024, acc= 99.4% |
+ lr=4.1e-04
+Test: loss=0.020 , acc= 99.3%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 10
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 7/27
+Layer 2 : 46/180
+Layer 3 : 76/180
+Layer 4 : 72/180
+Layer 5 : 102/180
+Layer 6 : 74/180
+Layer 7 : 193/360
+Layer 8 : 15/20
+Layer 9 : 194/360
+Layer 10 : 201/360
+Layer 11 : 191/360
+Layer 12 : 413/720
+Layer 13 : 29/40
+Layer 14 : 436/720
+Layer 15 : 446/720
+Layer 16 : 363/720
+Layer 17 : 731/1440
+Layer 18 : 57/80
+Layer 19 : 824/1440
+Layer 20 : 802/1440
+----------------------------------------
+Accuracies =
+ 81.3%   0.0%   0.0%   0.0%   0.0% 
+ 80.7%  99.4%   0.0%   0.0%   0.0% 
+****************************************************************************************************
+Task  2 (svhn)
+****************************************************************************************************
+----------------------------------------
+Task ID :2 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.495, acc= 83.8% | time=55390.3ms |
+ Valid: loss=0.554, acc= 82.5% |
+Epoch   2 | Train: loss=0.326, acc= 90.3% | time=57209.2ms |
+ Valid: loss=0.420, acc= 87.4% |
+Epoch   3 | Train: loss=0.238, acc= 93.6% | time=56681.5ms |
+ Valid: loss=0.349, acc= 90.0% |
+Epoch   4 | Train: loss=0.191, acc= 95.3% | time=50300.3ms |
+ Valid: loss=0.337, acc= 90.1% |
+Epoch   5 | Train: loss=0.159, acc= 96.3% | time=55455.4ms |
+ Valid: loss=0.334, acc= 90.5% |
+Epoch   6 | Train: loss=0.122, acc= 97.4% | time=57165.3ms |
+ Valid: loss=0.315, acc= 91.2% |
+Epoch   7 | Train: loss=0.094, acc= 98.3% | time=56736.7ms |
+ Valid: loss=0.307, acc= 91.3% |
+Epoch   8 | Train: loss=0.070, acc= 98.9% | time=54099.1ms |
+ Valid: loss=0.305, acc= 92.1% |
+Epoch   9 | Train: loss=0.053, acc= 99.2% | time=56467.3ms |
+ Valid: loss=0.311, acc= 91.5% |
+Epoch  10 | Train: loss=0.038, acc= 99.5% | time=57043.0ms |
+ Valid: loss=0.311, acc= 92.1% |
+Epoch  11 | Train: loss=0.028, acc= 99.7% | time=58107.8ms |
+ Valid: loss=0.319, acc= 91.8% |
+Epoch  12 | Train: loss=0.020, acc= 99.8% | time=56965.8ms |
+ Valid: loss=0.320, acc= 91.8% |
+Epoch  13 | Train: loss=0.014, acc= 99.9% | time=56949.1ms |
+ Valid: loss=0.319, acc= 92.1% |
+ lr=3.3e-02
+Epoch  14 | Train: loss=0.012, acc= 99.9% | time=56831.5ms |
+ Valid: loss=0.329, acc= 92.2% |
+Epoch  15 | Train: loss=0.010, acc= 99.9% | time=56418.8ms |
+ Valid: loss=0.332, acc= 91.9% |
+Epoch  16 | Train: loss=0.009, acc= 99.9% | time=51966.0ms |
+ Valid: loss=0.334, acc= 92.0% |
+Epoch  17 | Train: loss=0.008, acc= 99.9% | time=51827.3ms |
+ Valid: loss=0.333, acc= 92.0% |
+Epoch  18 | Train: loss=0.007, acc=100.0% | time=55419.3ms |
+ Valid: loss=0.340, acc= 92.0% |
+ lr=1.1e-02
+Epoch  19 | Train: loss=0.006, acc=100.0% | time=54251.2ms |
+ Valid: loss=0.338, acc= 92.3% |
+Epoch  20 | Train: loss=0.006, acc=100.0% | time=51816.5ms |
+ Valid: loss=0.341, acc= 92.1% |
+Epoch  21 | Train: loss=0.006, acc=100.0% | time=49972.0ms |
+ Valid: loss=0.341, acc= 92.1% |
+Epoch  22 | Train: loss=0.005, acc=100.0% | time=51541.2ms |
+ Valid: loss=0.346, acc= 92.1% |
+Epoch  23 | Train: loss=0.005, acc=100.0% | time=56087.3ms |
+ Valid: loss=0.350, acc= 91.7% |
+ lr=3.7e-03
+Epoch  24 | Train: loss=0.005, acc=100.0% | time=57269.2ms |
+ Valid: loss=0.341, acc= 92.1% |
+Epoch  25 | Train: loss=0.005, acc=100.0% | time=60786.7ms |
+ Valid: loss=0.346, acc= 91.9% |
+Epoch  26 | Train: loss=0.005, acc=100.0% | time=61134.1ms |
+ Valid: loss=0.343, acc= 92.4% |
+Epoch  27 | Train: loss=0.005, acc=100.0% | time=54781.3ms |
+ Valid: loss=0.342, acc= 91.9% |
+Epoch  28 | Train: loss=0.005, acc=100.0% | time=52970.4ms |
+ Valid: loss=0.339, acc= 92.2% |
+ lr=1.2e-03
+Epoch  29 | Train: loss=0.005, acc=100.0% | time=50590.2ms |
+ Valid: loss=0.345, acc= 92.3% |
+Epoch  30 | Train: loss=0.005, acc=100.0% | time=52906.5ms |
+ Valid: loss=0.347, acc= 92.1% |
+Epoch  31 | Train: loss=0.005, acc=100.0% | time=45572.7ms |
+ Valid: loss=0.351, acc= 91.9% |
+Epoch  32 | Train: loss=0.005, acc=100.0% | time=51798.9ms |
+ Valid: loss=0.340, acc= 92.4% |
+Epoch  33 | Train: loss=0.005, acc=100.0% | time=52848.5ms |
+ Valid: loss=0.346, acc= 91.9% |
+ lr=4.1e-04
+Test: loss=0.301 , acc= 91.0%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 5
+Skip Updating GPM for layer: 8
+Skip Updating GPM for layer: 10
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 7/27
+Layer 2 : 47/180
+Layer 3 : 79/180
+Layer 4 : 73/180
+Layer 5 : 102/180
+Layer 6 : 75/180
+Layer 7 : 204/360
+Layer 8 : 15/20
+Layer 9 : 207/360
+Layer 10 : 201/360
+Layer 11 : 197/360
+Layer 12 : 453/720
+Layer 13 : 30/40
+Layer 14 : 474/720
+Layer 15 : 484/720
+Layer 16 : 431/720
+Layer 17 : 931/1440
+Layer 18 : 60/80
+Layer 19 : 1017/1440
+Layer 20 : 1008/1440
+----------------------------------------
+Accuracies =
+ 81.3%   0.0%   0.0%   0.0%   0.0% 
+ 80.7%  99.4%   0.0%   0.0%   0.0% 
+ 75.8%  99.2%  91.1%   0.0%   0.0% 
+****************************************************************************************************
+Task  3 (fashion-mnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :3 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.008, acc= 99.9% | time=45898.0ms |
+ Valid: loss=0.027, acc= 99.2% |
+Epoch   2 | Train: loss=0.005, acc=100.0% | time=46175.3ms |
+ Valid: loss=0.025, acc= 99.2% |
+Epoch   3 | Train: loss=0.003, acc=100.0% | time=47288.5ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch   4 | Train: loss=0.002, acc=100.0% | time=46312.1ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch   5 | Train: loss=0.001, acc=100.0% | time=45034.1ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch   6 | Train: loss=0.001, acc=100.0% | time=45672.9ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch   7 | Train: loss=0.001, acc=100.0% | time=40828.4ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch   8 | Train: loss=0.001, acc=100.0% | time=37952.7ms |
+ Valid: loss=0.020, acc= 99.4% |
+Epoch   9 | Train: loss=0.001, acc=100.0% | time=42952.2ms |
+ Valid: loss=0.021, acc= 99.5% |
+Epoch  10 | Train: loss=0.000, acc=100.0% | time=47351.3ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  11 | Train: loss=0.000, acc=100.0% | time=43970.4ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  12 | Train: loss=0.000, acc=100.0% | time=41573.2ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  13 | Train: loss=0.000, acc=100.0% | time=42938.6ms |
+ Valid: loss=0.021, acc= 99.4% |
+ lr=3.3e-02
+Epoch  14 | Train: loss=0.000, acc=100.0% | time=43678.2ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  15 | Train: loss=0.000, acc=100.0% | time=46225.8ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  16 | Train: loss=0.000, acc=100.0% | time=47161.3ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  17 | Train: loss=0.000, acc=100.0% | time=42878.4ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  18 | Train: loss=0.000, acc=100.0% | time=43733.1ms |
+ Valid: loss=0.021, acc= 99.3% |
+ lr=1.1e-02
+Epoch  19 | Train: loss=0.000, acc=100.0% | time=44918.1ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  20 | Train: loss=0.000, acc=100.0% | time=45294.4ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  21 | Train: loss=0.000, acc=100.0% | time=46730.0ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  22 | Train: loss=0.000, acc=100.0% | time=47993.7ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  23 | Train: loss=0.000, acc=100.0% | time=49241.4ms |
+ Valid: loss=0.023, acc= 99.3% |
+ lr=3.7e-03
+Epoch  24 | Train: loss=0.000, acc=100.0% | time=49664.1ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  25 | Train: loss=0.000, acc=100.0% | time=49163.3ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  26 | Train: loss=0.000, acc=100.0% | time=49810.5ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  27 | Train: loss=0.000, acc=100.0% | time=46780.4ms |
+ Valid: loss=0.020, acc= 99.4% |
+Epoch  28 | Train: loss=0.000, acc=100.0% | time=46747.0ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  29 | Train: loss=0.000, acc=100.0% | time=45143.2ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  30 | Train: loss=0.000, acc=100.0% | time=40861.9ms |
+ Valid: loss=0.020, acc= 99.4% |
+Epoch  31 | Train: loss=0.000, acc=100.0% | time=46480.7ms |
+ Valid: loss=0.021, acc= 99.5% |
+Epoch  32 | Train: loss=0.000, acc=100.0% | time=42697.0ms |
+ Valid: loss=0.021, acc= 99.4% |
+ lr=1.2e-03
+Epoch  33 | Train: loss=0.000, acc=100.0% | time=46497.8ms |
+ Valid: loss=0.021, acc= 99.3% |
+Epoch  34 | Train: loss=0.000, acc=100.0% | time=45596.6ms |
+ Valid: loss=0.021, acc= 99.4% |
+Epoch  35 | Train: loss=0.000, acc=100.0% | time=46950.2ms |
+ Valid: loss=0.019, acc= 99.4% |
+Epoch  36 | Train: loss=0.000, acc=100.0% | time=46058.8ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  37 | Train: loss=0.000, acc=100.0% | time=46480.8ms |
+ Valid: loss=0.023, acc= 99.3% |
+Epoch  38 | Train: loss=0.000, acc=100.0% | time=45746.4ms |
+ Valid: loss=0.022, acc= 99.3% |
+Epoch  39 | Train: loss=0.000, acc=100.0% | time=46118.8ms |
+ Valid: loss=0.022, acc= 99.4% |
+Epoch  40 | Train: loss=0.000, acc=100.0% | time=47748.3ms |
+ Valid: loss=0.020, acc= 99.3% |
+ lr=4.1e-04
+Test: loss=0.019 , acc= 99.4%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 3
+Skip Updating GPM for layer: 7
+Skip Updating GPM for layer: 8
+Skip Updating GPM for layer: 9
+Skip Updating GPM for layer: 11
+Skip Updating GPM for layer: 12
+Skip Updating GPM for layer: 13
+Skip Updating GPM for layer: 14
+Skip Updating GPM for layer: 15
+Skip Updating GPM for layer: 16
+Skip Updating GPM for layer: 18
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 7/27
+Layer 2 : 48/180
+Layer 3 : 79/180
+Layer 4 : 74/180
+Layer 5 : 103/180
+Layer 6 : 76/180
+Layer 7 : 204/360
+Layer 8 : 15/20
+Layer 9 : 207/360
+Layer 10 : 204/360
+Layer 11 : 197/360
+Layer 12 : 453/720
+Layer 13 : 30/40
+Layer 14 : 474/720
+Layer 15 : 484/720
+Layer 16 : 431/720
+Layer 17 : 947/1440
+Layer 18 : 60/80
+Layer 19 : 1027/1440
+Layer 20 : 1021/1440
+----------------------------------------
+Accuracies =
+ 81.3%   0.0%   0.0%   0.0%   0.0% 
+ 80.7%  99.4%   0.0%   0.0%   0.0% 
+ 75.8%  99.2%  91.1%   0.0%   0.0% 
+ 77.0%  99.4%  90.7%  99.5%   0.0% 
+****************************************************************************************************
+Task  4 (notmnist)
+****************************************************************************************************
+----------------------------------------
+Task ID :4 | Learning Rate : 0.1
+----------------------------------------
+Layer 1 - Projection Matrix shape: torch.Size([27, 27])
+Layer 2 - Projection Matrix shape: torch.Size([180, 180])
+Layer 3 - Projection Matrix shape: torch.Size([180, 180])
+Layer 4 - Projection Matrix shape: torch.Size([180, 180])
+Layer 5 - Projection Matrix shape: torch.Size([180, 180])
+Layer 6 - Projection Matrix shape: torch.Size([180, 180])
+Layer 7 - Projection Matrix shape: torch.Size([360, 360])
+Layer 8 - Projection Matrix shape: torch.Size([20, 20])
+Layer 9 - Projection Matrix shape: torch.Size([360, 360])
+Layer 10 - Projection Matrix shape: torch.Size([360, 360])
+Layer 11 - Projection Matrix shape: torch.Size([360, 360])
+Layer 12 - Projection Matrix shape: torch.Size([720, 720])
+Layer 13 - Projection Matrix shape: torch.Size([40, 40])
+Layer 14 - Projection Matrix shape: torch.Size([720, 720])
+Layer 15 - Projection Matrix shape: torch.Size([720, 720])
+Layer 16 - Projection Matrix shape: torch.Size([720, 720])
+Layer 17 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 18 - Projection Matrix shape: torch.Size([80, 80])
+Layer 19 - Projection Matrix shape: torch.Size([1440, 1440])
+Layer 20 - Projection Matrix shape: torch.Size([1440, 1440])
+----------------------------------------
+Epoch   1 | Train: loss=0.400, acc= 87.2% | time=13125.8ms |
+ Valid: loss=0.414, acc= 87.6% |
+Epoch   2 | Train: loss=0.200, acc= 94.6% | time=12865.3ms |
+ Valid: loss=0.237, acc= 92.6% |
+Epoch   3 | Train: loss=0.195, acc= 94.3% | time=12865.8ms |
+ Valid: loss=0.244, acc= 93.3% |
+Epoch   4 | Train: loss=0.140, acc= 96.3% | time=13484.1ms |
+ Valid: loss=0.211, acc= 93.5% |
+Epoch   5 | Train: loss=0.124, acc= 96.8% | time=13912.8ms |
+ Valid: loss=0.209, acc= 93.7% |
+Epoch   6 | Train: loss=0.137, acc= 95.7% | time=13784.7ms |
+ Valid: loss=0.244, acc= 92.6% |
+Epoch   7 | Train: loss=0.100, acc= 97.3% | time=13981.7ms |
+ Valid: loss=0.187, acc= 94.1% |
+Epoch   8 | Train: loss=0.086, acc= 97.7% | time=13244.0ms |
+ Valid: loss=0.193, acc= 93.6% |
+Epoch   9 | Train: loss=0.060, acc= 98.7% | time=13460.3ms |
+ Valid: loss=0.176, acc= 93.9% |
+Epoch  10 | Train: loss=0.053, acc= 99.0% | time=13397.4ms |
+ Valid: loss=0.170, acc= 95.0% |
+Epoch  11 | Train: loss=0.051, acc= 98.9% | time=13374.1ms |
+ Valid: loss=0.185, acc= 94.2% |
+Epoch  12 | Train: loss=0.047, acc= 98.8% | time=13720.8ms |
+ Valid: loss=0.171, acc= 94.7% |
+Epoch  13 | Train: loss=0.039, acc= 99.2% | time=13656.0ms |
+ Valid: loss=0.162, acc= 94.9% |
+Epoch  14 | Train: loss=0.027, acc= 99.7% | time=13424.6ms |
+ Valid: loss=0.151, acc= 95.6% |
+Epoch  15 | Train: loss=0.019, acc= 99.8% | time=12337.7ms |
+ Valid: loss=0.154, acc= 95.0% |
+Epoch  16 | Train: loss=0.017, acc= 99.8% | time=12071.4ms |
+ Valid: loss=0.161, acc= 94.9% |
+Epoch  17 | Train: loss=0.014, acc= 99.8% | time=12439.9ms |
+ Valid: loss=0.152, acc= 95.5% |
+Epoch  18 | Train: loss=0.013, acc= 99.9% | time=13403.7ms |
+ Valid: loss=0.149, acc= 95.2% |
+Epoch  19 | Train: loss=0.011, acc= 99.9% | time=13366.3ms |
+ Valid: loss=0.154, acc= 95.0% |
+Epoch  20 | Train: loss=0.010, acc= 99.9% | time=13478.3ms |
+ Valid: loss=0.154, acc= 95.1% |
+Epoch  21 | Train: loss=0.010, acc= 99.9% | time=11826.2ms |
+ Valid: loss=0.169, acc= 95.0% |
+Epoch  22 | Train: loss=0.007, acc= 99.9% | time=12195.3ms |
+ Valid: loss=0.168, acc= 94.9% |
+Epoch  23 | Train: loss=0.006, acc= 99.9% | time=12212.9ms |
+ Valid: loss=0.152, acc= 95.0% |
+ lr=3.3e-02
+Epoch  24 | Train: loss=0.006, acc=100.0% | time=12327.5ms |
+ Valid: loss=0.163, acc= 94.8% |
+Epoch  25 | Train: loss=0.006, acc= 99.9% | time=13399.6ms |
+ Valid: loss=0.159, acc= 95.1% |
+Epoch  26 | Train: loss=0.005, acc=100.0% | time=13604.4ms |
+ Valid: loss=0.152, acc= 94.9% |
+Epoch  27 | Train: loss=0.005, acc=100.0% | time=13481.1ms |
+ Valid: loss=0.157, acc= 95.2% |
+Epoch  28 | Train: loss=0.005, acc= 99.9% | time=13435.7ms |
+ Valid: loss=0.155, acc= 95.2% |
+ lr=1.1e-02
+Epoch  29 | Train: loss=0.005, acc= 99.9% | time=12781.9ms |
+ Valid: loss=0.158, acc= 95.1% |
+Epoch  30 | Train: loss=0.005, acc=100.0% | time=12525.6ms |
+ Valid: loss=0.154, acc= 95.4% |
+Epoch  31 | Train: loss=0.005, acc=100.0% | time=13433.6ms |
+ Valid: loss=0.150, acc= 95.4% |
+Epoch  32 | Train: loss=0.005, acc=100.0% | time=13146.1ms |
+ Valid: loss=0.158, acc= 95.1% |
+Epoch  33 | Train: loss=0.005, acc=100.0% | time=13051.1ms |
+ Valid: loss=0.150, acc= 95.2% |
+ lr=3.7e-03
+Epoch  34 | Train: loss=0.004, acc=100.0% | time=12960.5ms |
+ Valid: loss=0.151, acc= 95.2% |
+Epoch  35 | Train: loss=0.004, acc=100.0% | time=12450.1ms |
+ Valid: loss=0.150, acc= 95.1% |
+Epoch  36 | Train: loss=0.004, acc=100.0% | time=12970.7ms |
+ Valid: loss=0.159, acc= 95.1% |
+Epoch  37 | Train: loss=0.004, acc=100.0% | time=13252.2ms |
+ Valid: loss=0.153, acc= 95.5% |
+Epoch  38 | Train: loss=0.004, acc=100.0% | time=13278.9ms |
+ Valid: loss=0.156, acc= 95.2% |
+ lr=1.2e-03
+Epoch  39 | Train: loss=0.004, acc=100.0% | time=13605.9ms |
+ Valid: loss=0.159, acc= 95.1% |
+Epoch  40 | Train: loss=0.004, acc=100.0% | time=13631.3ms |
+ Valid: loss=0.154, acc= 95.2% |
+Epoch  41 | Train: loss=0.004, acc=100.0% | time=13739.2ms |
+ Valid: loss=0.151, acc= 95.6% |
+Epoch  42 | Train: loss=0.004, acc=100.0% | time=12731.3ms |
+ Valid: loss=0.156, acc= 95.0% |
+Epoch  43 | Train: loss=0.004, acc=100.0% | time=12398.2ms |
+ Valid: loss=0.152, acc= 95.4% |
+ lr=4.1e-04
+Test: loss=0.202 , acc= 94.3%
+------------------------------
+Representation Matrix
+------------------------------
+Layer 1 : (27, 10240)
+Layer 2 : (180, 10240)
+Layer 3 : (180, 10240)
+Layer 4 : (180, 10240)
+Layer 5 : (180, 10240)
+Layer 6 : (180, 2560)
+Layer 7 : (360, 2560)
+Layer 8 : (20, 2560)
+Layer 9 : (360, 2560)
+Layer 10 : (360, 12800)
+Layer 11 : (360, 3200)
+Layer 12 : (720, 3200)
+Layer 13 : (40, 3200)
+Layer 14 : (720, 6400)
+Layer 15 : (720, 6400)
+Layer 16 : (720, 1600)
+Layer 17 : (1440, 1600)
+Layer 18 : (80, 1600)
+Layer 19 : (1440, 1600)
+Layer 20 : (1440, 1600)
+------------------------------
+Skip Updating GPM for layer: 1
+Skip Updating GPM for layer: 2
+Skip Updating GPM for layer: 3
+Skip Updating GPM for layer: 4
+Skip Updating GPM for layer: 5
+Skip Updating GPM for layer: 6
+Skip Updating GPM for layer: 7
+Skip Updating GPM for layer: 8
+Skip Updating GPM for layer: 9
+Skip Updating GPM for layer: 10
+Skip Updating GPM for layer: 11
+Skip Updating GPM for layer: 12
+Skip Updating GPM for layer: 13
+Skip Updating GPM for layer: 14
+Skip Updating GPM for layer: 18
+----------------------------------------
+Gradient Constraints Summary
+----------------------------------------
+Layer 1 : 7/27
+Layer 2 : 48/180
+Layer 3 : 79/180
+Layer 4 : 74/180
+Layer 5 : 103/180
+Layer 6 : 76/180
+Layer 7 : 204/360
+Layer 8 : 15/20
+Layer 9 : 207/360
+Layer 10 : 204/360
+Layer 11 : 197/360
+Layer 12 : 453/720
+Layer 13 : 30/40
+Layer 14 : 474/720
+Layer 15 : 486/720
+Layer 16 : 448/720
+Layer 17 : 1017/1440
+Layer 18 : 60/80
+Layer 19 : 1094/1440
+Layer 20 : 1095/1440
+----------------------------------------
+Accuracies =
+ 81.3%   0.0%   0.0%   0.0%   0.0% 
+ 80.7%  99.4%   0.0%   0.0%   0.0% 
+ 75.8%  99.2%  91.1%   0.0%   0.0% 
+ 77.0%  99.4%  90.7%  99.5%   0.0% 
+ 77.0%  99.4%  90.2%  99.4%  94.4% 
+--------------------------------------------------
+Task Order : [0 1 2 3 4]
+Final Avg Accuracy: 92.08%
+Backward transfer: -1.30%
+[Elapsed time = 7864948.1 ms]
+--------------------------------------------------
